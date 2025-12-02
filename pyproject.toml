@@ -7,7 +7,10 @@ authors = [
     { name = "angusforrest", email = "personal@angusforrest.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.5",
+]
 
 [build-system]
 requires = ["uv_build>=0.9.11,<0.10.0"]
