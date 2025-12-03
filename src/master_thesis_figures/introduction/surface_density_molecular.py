@@ -91,7 +91,7 @@ def template_surface_density_molecular():
     ax.set_ylim(1e-2, 30)
     ax.set_yscale("log")
     ax.set_xlabel(r"$\mathrm{R}$ (kpc)")
-    ax.set_ylabel(r"$\Sigma$ ($\mathrm{M}_\odot$pc${}^{-2}$)")
+    ax.set_ylabel(r"$\Sigma$ ($\mathrm{M}_\odot$  pc${}^{-2}$)")
     xticks = np.arange(0, 21, 5)
     ax.xaxis.set_major_locator(FixedLocator(xticks))
     ax.xaxis.set_minor_locator(
